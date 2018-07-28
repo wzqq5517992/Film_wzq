@@ -10,6 +10,8 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
+import jnr.ffi.types.id_t;
+
 /**
  * 网站动态更新电影信息实体
  * @author Administrator
@@ -18,7 +20,7 @@ import javax.persistence.Table;
  */
 @Entity
 @Table(name="t_info")
-public class WebSiteInfo<Film> {
+public class WebSiteInfo {
 
 	@Id
 	@GeneratedValue
@@ -39,6 +41,7 @@ public class WebSiteInfo<Film> {
 	private String url; // 具体网址
 	
 	private Date publishDate; // 发布日期
+	
 
 	public Integer getId() {
 		return id;
