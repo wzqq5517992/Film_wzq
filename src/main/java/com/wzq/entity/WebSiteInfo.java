@@ -13,11 +13,12 @@ import javax.persistence.Table;
 /**
  * 网站动态更新电影信息实体
  * @author Administrator
+ * @param <Film>
  *
  */
 @Entity
 @Table(name="t_info")
-public class WebSiteInfo {
+public class WebSiteInfo<Film> {
 
 	@Id
 	@GeneratedValue
