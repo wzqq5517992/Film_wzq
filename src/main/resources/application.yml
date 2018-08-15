@@ -14,3 +14,4 @@ spring:
       show-sql: true
    thymeleaf:
        cache: false
+imageFilePath: E://KFTools/eclipse4.6/workspace/Film/src/main/webapp/static/filmImage/ 
