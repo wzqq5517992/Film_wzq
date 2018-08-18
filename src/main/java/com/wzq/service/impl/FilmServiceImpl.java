@@ -15,9 +15,9 @@ import com.wzq.service.FilmService;
  */
 @Service("filmService")
 public class FilmServiceImpl  implements FilmService{
-
-	private FilmRepository  filmRepository;
 	@Resource
+	private FilmRepository  filmRepository;
+	@Override
 	public void save(Film film) {
 		filmRepository.save(film);
 		

@@ -5,12 +5,13 @@ package com.wzq.reponsitory;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.wzq.entity.Film;
+import com.wzq.entity.Link;
 
 /**
- * 电影repository 接口
+ * 友情链接repository 接口
  * @author Jolin
  *
  */
-public interface FilmRepository   extends JpaRepository<Film, Integer>{
+public interface LinkRepository   extends JpaRepository<Link, Integer>{
 
 }

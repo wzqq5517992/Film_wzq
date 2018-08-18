@@ -1,8 +1,13 @@
 package com.wzq.contrloller;
 
+import java.util.Map;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
+
+import com.wzq.entity.Film;
 
 /**
  * 根路径以及其他请求处理
